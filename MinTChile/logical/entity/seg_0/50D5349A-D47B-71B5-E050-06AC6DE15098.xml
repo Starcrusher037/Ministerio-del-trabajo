@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50D5349A-D47B-71B5-E050-06AC6DE15098" name="POSTULANTE">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:42:15 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="folio" id="9CE29CC6-64AB-EB14-1C6C-A22CC4A32143">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:49:18 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="155B357F-AF96-D6BA-8FEC-2E95EECBE1E2">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:49:59 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="761C8A28-5D59-401D-C6A7-0B9013ED4BEB">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:50:47 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="775F9EC1-7333-9DF6-DA17-7E7CFAFDB35E">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:51:04 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="80E3CB3E-7723-336C-211B-EC02867EAA46">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:52:40 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="954D1166-50A1-D53E-7DEE-BCC90F23BDAB">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:54:46 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sitio_web" id="96C6131F-AC5B-6AA8-8AB3-58C9522494FA">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:56:09 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_personal" id="D9870E8C-11AE-79CC-83A2-C4C5557BDEDC">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 19:14:39 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacionalidad" id="A54C6C62-A71B-F57F-95C7-0BF79385CF50">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 23:49:51 UTC</createdTime>
+<generatorID>55AD4B83-D7F3-2D03-F588-173ED0F006A8</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<referedAttribute>8BCD0418-19AB-8004-711C-F151B7C8D6AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_grado" id="247F81C2-C95E-1069-02F1-CF6FFD9DAFB8">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 23:53:54 UTC</createdTime>
+<generatorID>C7290FEB-4122-2115-FFE3-B7E4D1744034</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<referedAttribute>06E8DC54-767E-F268-A577-074EFF5EE11C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="1A1A48A1-7153-4ABB-F1B5-B7EF2FD7676B">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-08 01:03:27 UTC</createdTime>
+<generatorID>353D059F-A437-20D6-5F78-9FA0D68CEBB9</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<referedAttribute>A3C3BC53-FDB2-ECB4-3F83-0B9319F0E6AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="renta_actual" id="88770BB8-2DD5-A412-5F1B-F118C52362F6">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-08 22:14:35 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFD0E672-913B-FF9E-6CC2-E6E821ECB915" name="POSTULANTE PK">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:49:58 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CE29CC6-64AB-EB14-1C6C-A22CC4A32143</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

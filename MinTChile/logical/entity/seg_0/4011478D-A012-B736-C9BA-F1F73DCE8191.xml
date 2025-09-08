@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4011478D-A012-B736-C9BA-F1F73DCE8191" name="POSTULACION">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 19:08:21 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empresa" id="762AC678-1D5A-993B-B8AB-0709407FE762">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 20:08:32 UTC</createdTime>
+<generatorID>C6AD82A6-30DD-5D20-BA65-2C789DBAD1AC</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C77D96D7-191E-241C-B8C0-990FD318F2B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_postulacion" id="01CF1AD9-B1B1-84C4-8211-B0BD5AABD0E8">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-08 00:18:50 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_oferta" id="8014BF3B-2AD3-3FD2-7A0A-21AC6F04CDDD">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-08 20:53:15 UTC</createdTime>
+<generatorID>452139DD-3EBB-C4A5-CC42-D8B432B1E681</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<referedAttribute>3D68A1E7-83AD-83D9-244E-0DADD79D7CD9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio" id="304D9700-9874-EB40-07F7-5252A53A5FC6">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-08 22:09:00 UTC</createdTime>
+<generatorID>116DC908-8164-5334-A7D3-752BDA67A3B6</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<referedAttribute>9CE29CC6-64AB-EB14-1C6C-A22CC4A32143</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

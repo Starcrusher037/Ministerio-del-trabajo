@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="0C6F7DC3-DE53-E65A-C847-B170B57D7791" name="Arc_2">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-08 01:40:12 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<entity>4011478D-A012-B736-C9BA-F1F73DCE8191</entity>
+<relations>
+<relationID>FB9230C8-61D3-89CF-FEC4-2746A6C0AB77</relationID>
+<relationID>E668D45F-FE9B-F1CE-7828-D9999C48BCAE</relationID>
+</relations>
+</Arc>

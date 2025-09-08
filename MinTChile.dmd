@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MinTChile" id="AE9B1960-F1AA-732F-DA23-F4DF6CD22329" version="3.5">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 18:34:17 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AE9B1960-F1AA-732F-DA23-F4DF6CD22329</designId>
+</OSDM_Design>

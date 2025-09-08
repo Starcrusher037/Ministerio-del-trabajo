@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4131B8D-2246-BA9C-246E-586BCFFBE29D" name="PROFESION_OBTENIDA">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 19:51:11 UTC</createdTime>
+<comment><![CDATA[Cada postulante puede tener como maximo 2 profesiones]]></comment>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_obtencion" id="9104AFA6-47EC-61BD-6C54-5CBB6070962C">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 19:52:25 UTC</createdTime>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio" id="1DCF4116-F04B-B476-C95F-84A45D216517">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 20:44:17 UTC</createdTime>
+<generatorID>BFCF620A-D66D-1AD4-C235-94EE38D37095</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<referedAttribute>9CE29CC6-64AB-EB14-1C6C-A22CC4A32143</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profesion" id="075C18FB-23A1-69FF-5A70-C9C5FBA893AE">
+<createdBy>56966</createdBy>
+<createdTime>2025-09-07 20:46:34 UTC</createdTime>
+<generatorID>623B901C-D835-2F8F-24E8-8B5DEEDA396F</generatorID>
+<ownerDesignName>MinTChile</ownerDesignName>
+<engineerTo>
+<item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ADA837F4-E784-A110-A666-18D0EA52241E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
