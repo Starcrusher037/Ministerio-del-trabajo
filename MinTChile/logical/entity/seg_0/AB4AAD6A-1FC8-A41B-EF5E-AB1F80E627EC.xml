@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29A6BCA0-E463-A2B8-B2BB-559914A20C74" name="Ciudad">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB4AAD6A-1FC8-A41B-EF5E-AB1F80E627EC" name="Direccion">
 <createdBy>56966</createdBy>
-<createdTime>2025-09-07 21:14:17 UTC</createdTime>
+<createdTime>2025-09-09 00:47:44 UTC</createdTime>
 <ownerDesignName>MinTChile</ownerDesignName>
 <engineerTo>
 <item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_ciudad" id="608588B3-FE87-FAE8-DD9A-7B24E4C696E4">
+<Attribute name="id_direccion" id="826BC328-3569-50D2-8DD6-AB1736ED4F77">
 <createdBy>56966</createdBy>
-<createdTime>2025-09-07 21:14:25 UTC</createdTime>
+<createdTime>2025-09-09 00:47:57 UTC</createdTime>
 <ownerDesignName>MinTChile</ownerDesignName>
 <engineerTo>
 <item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
@@ -25,12 +25,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_ciudad" id="0DCFA82E-47CC-3B20-D582-5B7541B7E495">
+<Attribute name="nombre_direccion" id="12DBC0F3-16D6-4BFE-94C1-C5E008CE8979">
 <createdBy>56966</createdBy>
-<createdTime>2025-09-07 21:14:34 UTC</createdTime>
+<createdTime>2025-09-09 00:48:36 UTC</createdTime>
 <ownerDesignName>MinTChile</ownerDesignName>
 <engineerTo>
 <item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
@@ -38,35 +37,36 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pais" id="175BBCA4-E2BF-45D9-3A52-A5804EFBF4BE">
+<Attribute name="id_ciudad" id="1D0CCA50-09D1-E0B5-B4AC-C5979A39A075">
 <createdBy>56966</createdBy>
-<createdTime>2025-09-07 21:16:12 UTC</createdTime>
-<generatorID>1352AC64-7D29-CAFC-4E5E-57FB4F6717A8</generatorID>
+<createdTime>2025-09-09 00:57:16 UTC</createdTime>
+<generatorID>EB06907F-67D5-65BB-22A9-7EA9BCEFAC0C</generatorID>
 <ownerDesignName>MinTChile</ownerDesignName>
 <engineerTo>
 <item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
 </engineerTo>
-<referedAttribute>A3C3BC53-FDB2-ECB4-3F83-0B9319F0E6AF</referedAttribute>
+<referedAttribute>608588B3-FE87-FAE8-DD9A-7B24E4C696E4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT042</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="72A3D59E-A5B2-09AC-DF38-1107866DE535" name="Ciudad PK">
+<identifier id="3DA4EC7B-B2C1-0B54-5557-4E06E4D9C07B" name="Direccion PK">
 <createdBy>56966</createdBy>
-<createdTime>2025-09-07 21:14:33 UTC</createdTime>
+<createdTime>2025-09-09 00:48:13 UTC</createdTime>
 <ownerDesignName>MinTChile</ownerDesignName>
 <engineerTo>
 <item key="B76DD9EE-2905-1DE5-5351-89099DDAB7F5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>608588B3-FE87-FAE8-DD9A-7B24E4C696E4</attributeRef>
+<attributeRef>826BC328-3569-50D2-8DD6-AB1736ED4F77</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
